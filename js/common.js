@@ -37,10 +37,10 @@ $(document).ready(function() {
     });
 });
 
-// $(window).load("index.html", function() {
-//     $(".loader_inner").fadeOut();
-//     $(".loader").delay(3000).fadeOut("slow");
-// });﻿
+$(window).load("index.html", function() {
+    $(".loader_inner").fadeOut();
+    $(".loader").delay(3000).fadeOut("slow");
+});﻿
 $(".toggle_mnu").click(function() {
     $(".sandwich").toggleClass("active");
 });
